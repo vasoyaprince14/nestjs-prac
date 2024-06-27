@@ -1,0 +1,28 @@
+GET http://localhost:3000/songs
+
+###
+
+GET http://localhost:3000/songs/ddjdf
+
+
+
+###
+PUT http://localhost:3000/songs/ddjdf
+
+###
+DELETE http://localhost:3000/songs/ddjdf
+
+
+
+
+###
+POST http://localhost:3000/songs
+
+Content-Type: application/json
+
+{
+ "title":"bado badri",
+ "artists":["bado badro","kadi kadi"],
+ "releasedDate":"2022-09-29",
+ "duration":"02:34"   
+}
